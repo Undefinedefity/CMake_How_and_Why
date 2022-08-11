@@ -1,6 +1,8 @@
+// hello_world.cpp
 #include "hello_world.h"
+#include "hello.h"
+#include "world.h"
 #include <iostream>
-
 void hello_world()
 {
     hello();
