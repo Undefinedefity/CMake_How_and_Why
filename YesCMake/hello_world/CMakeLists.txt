@@ -10,3 +10,6 @@ add_subdirectory(world)
 target_link_libraries(hello_world PRIVATE hello)
 # 自己使用world库，不对外提供
 target_link_libraries(hello_world PRIVATE world)
+
+target_include_directories(hello PUBLIC ./hello)
+target_include_directories(world PUBLIC ./world)
